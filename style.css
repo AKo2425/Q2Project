@@ -1,0 +1,124 @@
+.navbar-brand img {
+    height: 40px;
+    width: auto;  
+    object-fit: contain;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/flat-green-checkered-background_23-2150551850.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0; 
+    color: #A38933;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+}
+
+.container {
+    background-color: rgba(52, 78, 65, 0.8); 
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 35px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.navbar-brand .logo-text {
+    font-weight: bold;
+    font-size: 24px; 
+    margin-left: 10px; 
+    color: #CAB369;
+    font-family: "Dancing Script", serif;
+}
+
+
+.navbar-nav .nav-item {
+    margin-right: 15px; 
+}
+
+.carousel-img {
+    max-height: 350px;  
+    object-fit: cover; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 5px solid #E1A113;
+}
+
+#recipeCarousel {
+    margin: 20px auto; 
+    max-width: 80%
+}
+
+.carousel-img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #D2B860;
+    padding: 15px;
+    font-size: 30px;
+    border: 2px solid #A3B18A;
+    border-radius: 5px;
+}
+
+.custom-card {
+    background-color:#0B2319;
+    color: #768948; 
+    border: 1px solid #768948; 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.treats {
+    margin-top: auto; 
+    text-align: center;
+}
+
+.treats img {
+    width: 100%;   
+    height: auto;  
+    object-fit: cover; 
+    max-height: 200px; 
+}
+
+.treats button {
+    margin-top: 10px; 
+}
+
+.custom-treats-card {
+    background-color: #d4edda; 
+    color: #155724; 
+}
+
+.custom-treats-description {
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.custom-recipe-card {
+    background-color: #0B1F17; 
+    color: #768948; 
+}
+
+.custom-recipe-card h5 {
+    color: #B39C4D;
+    font-size: 20px;
+}
+
+.custom-recipe-card h4 {
+    font-size: 40px;
+}
+
+
+.custom-img-gap {
+    margin-top: 100px; 
+}
+

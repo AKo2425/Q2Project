@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Otap-Recipe</title>
+
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Poppins:wght@100..900&family=Tajawal:wght@200..900&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+        <img src="logo-categories.png" alt="Avatar Logo" height="40">
+        <span class="logo-text">The Recipe Vault</span>
+    </a>
+
+    <!-- Button for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="categories.html">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#SubmitRecipe">Submit Recipe</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Search Form -->
+    <form class="d-flex ms-auto" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- Recipe Content -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+           <img src="https://www.kawalingpinoy.com/wp-content/uploads/2021/05/otap-4-1024x1536.jpg" alt="otap" class="img-fluid rounded custom-img-gap"
+            >
+        	</div>
+    <!-- Ingredients and Steps -->
+        <div class="col-md-6">
+            <!-- Ingredients Box -->
+            <div class="card mb-4 custom-recipe-card">
+                <div class="card-body">
+                    <h5 class="card-title">Ingredients</h5>
+                    <ul>
+                        <li>320 grams all-purpose flour</li>
+                        <li>32 grams self-rising flour</li>
+                        <li>1 tsp salt</li>
+                        <li>35 grams sugar</li>
+                        <li>2 tsp vanilla extract</li>
+                        <li>3/4 cup water</li>
+                        <li>16 grams lard (or butter/margarine)</li>
+                    </ul>
+                </div>
+            </div>
+
+     <!-- Steps Box -->
+            <div class="card custom-recipe-card">
+                <div class="card-body">
+                    <h5 class="card-title">Steps</h5>
+                    <ol>
+                        <li>Mix together all-purpose flour, self-rising flour, sugar and salt in a mixing bowl.</li>
+                        <li>Add vanilla extract and water then whisk until incorporated.</li>
+                        <li>Use hands to knead until dough forms then add lard and knead some more until dough is smooth and not too sticky. You can also use a stand mixer to make this easier and quicker.</li>
+                        <li>Form the dough into a ball and cover the mixing bowl with the dough in it with a clean kitchen towel and let it rest for at least 5 minutes.</li>
+                        <li>Arrange the otap in a baking sheet lined with parchment paper. Bake in a preheated oven at 180°C or 356°F for 30 – 35 minutes or until golden.</li>
+                        <li>Let it rest for at least 10 minutes. After it has cooled down, you're free to enjoy! </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="text-center mt-5">
+    <p>Made by Atasha Ko | 9-Sapphire</p>
+</footer>
+
+</body>
+</html>
